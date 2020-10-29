@@ -1,0 +1,40 @@
+.oldPraise-content {
+  flex: 1;
+  overflow-y: scroll; }
+  .oldPraise-content ul.praiselist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: #fff; }
+    .oldPraise-content ul.praiselist img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%; }
+    .oldPraise-content ul.praiselist li {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 15px; }
+      .oldPraise-content ul.praiselist li div.cont {
+        padding: 14px 12px 14px 0;
+        margin-left: 10px;
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #e5e5e5;
+        align-items: center; }
+        .oldPraise-content ul.praiselist li div.cont span:first-child {
+          color: #333;
+          font-size: 16px; }
+        .oldPraise-content ul.praiselist li div.cont span:last-child {
+          color: #707070;
+          font-size: 14px; }
+  .oldPraise-content .nocontent {
+    color: #707070;
+    text-align: center;
+    padding: 20px; }

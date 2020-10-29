@@ -1,0 +1,63 @@
+.select{
+    width: 100%;
+    position: relative;
+    background: #ffffff;
+    height: 42px;
+    .selecttitle{
+        display: flex;
+      p{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        line-height: 42px;
+        box-sizing: border-box;
+        height: 42px;
+        font-size: 16px;
+        border-bottom: 1px solid #e5e5e5;
+        color: #333333;
+      .iconfont{
+            font-size: 10px;
+            margin-left: 10px;
+            color: #DDDDDD;
+            // color: #ff5651;
+      }
+    }
+      p.choosed{
+        color: #ff5651;
+        em{
+          color: #ff5651;
+        }
+      }
+  }
+  .selectTab{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    box-sizing: border-box;
+    top:40px;
+    span{
+      display: block;
+      width: 100%;
+      line-height: 50px;
+      background: #ffffff;
+      height: 51px;
+      i{
+        border-bottom: 1px solid #EAEAEA;
+        margin-left: 4%;
+        font-style: normal;
+        width: 96%;
+        float: left;
+      }
+      .icon-duihao{
+        float: right;
+        margin-right: 5%;
+        font-size: 14px;
+      }
+    }
+    .choosed{
+      color: #ff5651;
+    }
+  }
+
+}

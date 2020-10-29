@@ -1,0 +1,104 @@
+body{
+    font-family: PingFangSC-Regular;
+}
+.topBanner{
+    width: 92%;
+    height: 150px;
+    color: #fff;
+    background-color: #0099FF;
+    position: relative;
+    padding: 15px 4%;
+    background-size: cover;
+}
+.cMain{
+    color:#ff5651;
+}
+.l_24{
+    height: 24px;
+    line-height: 24px;
+}
+.mg15{
+    margin-bottom: 15px;
+}
+.fs_12{
+    font-size: 12px;
+}
+.fs_14{
+    font-size: 14px;
+}
+.fs_16{
+    font-size: 16px;
+}
+.fs_45{
+    font-size: 45px;
+}
+.topRight{
+    position: absolute;
+    top: 15px;
+    right: 4%;
+    width: 72px;
+    height: 18px;
+    padding: 3px 6px;
+    background-color: #fff;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.topRight img{
+    display: inline-block;
+    height: 16px;
+    margin-right: 2px;
+}
+.topRight span{
+    position: relative;
+    top: -3px;
+    right: -4px;
+    height: 24px;
+    line-height: 24px;
+}
+.taskListCon{
+    margin: -48px 30px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(207,207,207,0.50);
+    -moz-box-shadow: 0 0 10px 0 rgba(207,207,207,0.50);
+    box-shadow: 0 0 10px 0 rgba(207,207,207,0.50);
+    position: relative;
+    overflow: hidden;
+}
+.pTitle{
+    height: 45px;
+    line-height: 45px;
+    color: #6e6e6e;
+    background-color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+.taskHead{
+    width: 26px;
+}
+.taskComplete,.taskNone{
+    text-align: center;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.listItemCon{
+    flex: 1 1 auto;
+    padding: 0 10px;
+    min-width: 0;
+}
+.listItemCon .item_title{
+    color: #313131;
+    font-size: 15px;
+    /*font-weight: 400;*/
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+.listItemCon .item_secondary{
+    font-size: 12px;
+    color: #737373;
+}

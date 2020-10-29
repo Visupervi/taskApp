@@ -1,0 +1,63 @@
+.examDetail{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  >p{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 50%;
+    img{
+      width: 60%;
+    //   height: 60%;
+    }
+  }
+  >div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #808080;
+    font-size: 14px;
+    >p{
+      min-width: 65%;
+      text-align: center;
+      color: #2C3038;
+      font-size: 18px;
+      border-bottom:2px solid #E2E2E2;
+      letter-spacing: 1px;
+      padding-bottom: 10px;
+      >span{
+        font-size: 24px;
+        color: #0099FF;
+        margin-left: 5px;
+      }
+    }
+    >p.score{
+      text-align: center;
+    }
+    >div{
+      margin-top: 8px;
+      .changeRed{
+          color: red;
+      }
+    }
+
+  }
+  .btn{
+    padding-top: 98px; 
+    span{
+      display: inline-block;
+      background: #FF5651;
+      border-radius: 60px;
+      width: 150px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+  }
+}

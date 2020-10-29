@@ -1,0 +1,32 @@
+.whitebg {
+  background: #fff;
+  padding: 0 15px;
+  margin-bottom: 10px; }
+  .whitebg .none {
+    display: none; }
+  .whitebg .zanp {
+    color: #2d2d2d;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 15px 0;
+    font-weight: 500; }
+    .whitebg .zanp i {
+      color: #c7c7c7;
+      font-size: 13px; }
+  .whitebg .photos {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 30px;
+    overflow: hidden; }
+    .whitebg .photos img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 9px;
+      margin-bottom: 8px; }
+
+.paddbottom {
+  padding-bottom: 15px; }

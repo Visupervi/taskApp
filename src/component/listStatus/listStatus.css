@@ -1,0 +1,23 @@
+.nodata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #909090;
+  font-size: 13px;
+  width: 100%;
+  flex-direction: column;
+  height: 300px;
+  background-color: #fff; }
+  .nodata .statusDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .nodata .statusDiv img {
+      width: 40%;
+      display: flex;
+      margin-bottom: 10px; }
+    .nodata .statusDiv p {
+      display: flex; }
+  .nodata .statusDiscuss img {
+    width: 50%; }

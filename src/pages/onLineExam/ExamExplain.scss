@@ -1,0 +1,68 @@
+body{
+    height:100%;
+    background: #fff;
+}
+.ExamExplain{
+    .exam_pic{
+        padding:45px 0 20px;
+        text-align: center;
+        img{
+            width:180px;
+            height:180px;
+        }
+    }
+    p{
+        text-align: center;
+    }
+    p.exam_totalTime{
+        font-size:17px;
+        span{
+            font-size:27px;
+            color:#0099ff;
+            margin-left: 8px;
+        }
+    }
+    .line{
+        width: 38%;
+        height:1px;
+        background: #E2E2E2;
+        border:none;
+        margin-left: 31%;
+    }
+    p.score{
+        font-size:14px;
+        margin-top:10px;
+        color:#808080;
+        letter-spacing: 1.5px;
+        span{
+            color:#ff5651;
+        }
+    }
+    p.describe{
+        font-size:12px;
+        letter-spacing: 1.5px;
+        line-height: 24px;
+        color:#2d2d2d;
+        margin:0 40px 45px;
+        max-height: 130px;
+        overflow-y: scroll;
+        margin-top:15px;
+        text-align: center;
+        span{
+            display: inline-block;
+            text-align: left;
+        }
+    }
+    p.submit{
+        button{
+            width:150px;
+            height:45px;
+            font-size:16px;
+            color:#fff;
+            background: #ff5651;
+            border-radius:60px;
+            border:none;
+        }
+    }
+
+}

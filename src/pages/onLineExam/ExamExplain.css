@@ -1,0 +1,58 @@
+body {
+  height: 100%;
+  background: #fff; }
+
+.ExamExplain .exam_pic {
+  padding: 45px 0 20px;
+  text-align: center; }
+  .ExamExplain .exam_pic img {
+    width: 180px;
+    height: 180px; }
+
+.ExamExplain p {
+  text-align: center; }
+
+.ExamExplain p.exam_totalTime {
+  font-size: 17px; }
+  .ExamExplain p.exam_totalTime span {
+    font-size: 27px;
+    color: #0099ff;
+    margin-left: 8px; }
+
+.ExamExplain .line {
+  width: 38%;
+  height: 1px;
+  background: #E2E2E2;
+  border: none;
+  margin-left: 31%; }
+
+.ExamExplain p.score {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #808080;
+  letter-spacing: 1.5px; }
+  .ExamExplain p.score span {
+    color: #ff5651; }
+
+.ExamExplain p.describe {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+  color: #2d2d2d;
+  margin: 0 40px 45px;
+  max-height: 130px;
+  overflow-y: scroll;
+  margin-top: 15px;
+  text-align: center; }
+  .ExamExplain p.describe span {
+    display: inline-block;
+    text-align: left; }
+
+.ExamExplain p.submit button {
+  width: 150px;
+  height: 45px;
+  font-size: 16px;
+  color: #fff;
+  background: #ff5651;
+  border-radius: 60px;
+  border: none; }

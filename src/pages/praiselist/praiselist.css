@@ -1,0 +1,45 @@
+.praise-content {
+  flex: 1;
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  padding-top: 10px; }
+  .praise-content ul.praiselist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    height: 100%; }
+    .praise-content ul.praiselist img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%; }
+    .praise-content ul.praiselist li {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 15px; }
+      .praise-content ul.praiselist li div {
+        padding: 14px 12px 14px 0;
+        margin-left: 10px;
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #e5e5e5;
+        align-items: center; }
+        .praise-content ul.praiselist li div span:first-child {
+          color: #333;
+          font-size: 16px; }
+        .praise-content ul.praiselist li div span:last-child {
+          color: #707070;
+          font-size: 14px; }
+  .praise-content .nocontent {
+    color: #707070;
+    text-align: center;
+    padding: 20px; }

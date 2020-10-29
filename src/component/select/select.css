@@ -1,0 +1,50 @@
+.select {
+  width: 100%;
+  position: relative;
+  background: #ffffff;
+  height: 42px; }
+  .select .selecttitle {
+    display: flex; }
+    .select .selecttitle p {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      line-height: 42px;
+      box-sizing: border-box;
+      height: 42px;
+      font-size: 16px;
+      border-bottom: 1px solid #e5e5e5;
+      color: #333333; }
+      .select .selecttitle p .iconfont {
+        font-size: 10px;
+        margin-left: 10px;
+        color: #DDDDDD; }
+    .select .selecttitle p.choosed {
+      color: #ff5651; }
+      .select .selecttitle p.choosed em {
+        color: #ff5651; }
+  .select .selectTab {
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    box-sizing: border-box;
+    top: 40px; }
+    .select .selectTab span {
+      display: block;
+      width: 100%;
+      line-height: 50px;
+      background: #ffffff;
+      height: 51px; }
+      .select .selectTab span i {
+        border-bottom: 1px solid #EAEAEA;
+        margin-left: 4%;
+        font-style: normal;
+        width: 96%;
+        float: left; }
+      .select .selectTab span .icon-duihao {
+        float: right;
+        margin-right: 5%;
+        font-size: 14px; }
+    .select .selectTab .choosed {
+      color: #ff5651; }

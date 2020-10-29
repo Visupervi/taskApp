@@ -1,0 +1,77 @@
+.whitebg1{
+    background: #fff;
+    margin-bottom: 10px;
+    .comstitle{
+        color: #333333;
+        font-size: 15px;
+        padding: 15px 0 0 0;
+        font-weight: 500;
+    }
+    .comlist{
+        padding-bottom: 10px;
+        .rightcom{
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 15px;
+            padding-left: 0;
+            border-bottom: 1px solid #E5E5E5;
+            margin-bottom: 0;
+        }
+        .rightcom:last-child{
+            border-bottom: none;
+        }
+        .rightcom img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .art-img{
+            width: 100%;
+        }
+        .comdetail{
+            flex: 1;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            .names{
+                flex: 1;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                font-size: 14px;
+                span{
+                    flex: 1;
+                }
+                span:first-child{
+                    color: #333333;
+                    font-size: 16px;
+                }
+                span:last-child{
+                    text-align: right;
+                    color: #707070;
+                    font-size: 12px;
+                }
+                i{
+                    margin: 0 5px 0 20px;
+                    font-size: 15px;
+                }
+                i.red{
+                    color: #ff5651;
+                }
+            }
+            .comtime{
+                color: #909090;
+                font-size: 12px;
+            }
+            .comcontent{
+                color: #2d2d2d;
+                font-size: 15px;
+                line-height: 23px;
+                margin-top: 6px;
+            }
+        }
+    }
+
+}
+

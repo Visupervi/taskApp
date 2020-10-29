@@ -1,0 +1,53 @@
+.replybg {
+  background: #fff;
+  padding: 0 0 0 15px;
+  margin-bottom: 10px; }
+  .replybg .comstitle {
+    color: #2d2d2d;
+    font-size: 15px;
+    padding: 15px 0; }
+  .replybg ul.comlists {
+    padding-bottom: 10px; }
+    .replybg ul.comlists li {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px; }
+      .replybg ul.comlists li img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px; }
+    .replybg ul.comlists .comdetail {
+      flex: 1;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column; }
+      .replybg ul.comlists .comdetail .replys {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 14px; }
+        .replybg ul.comlists .comdetail .replys p span {
+          color: #295998; }
+          .replybg ul.comlists .comdetail .replys p span i {
+            margin: 0 5px;
+            color: #707070; }
+        .replybg ul.comlists .comdetail .replys span {
+          text-align: right;
+          color: #707070;
+          font-size: 15px; }
+          .replybg ul.comlists .comdetail .replys span i {
+            font-style: normal;
+            margin: 0 5px 0 20px;
+            font-size: 15px; }
+          .replybg ul.comlists .comdetail .replys span i.red {
+            color: #ff5651; }
+      .replybg ul.comlists .comdetail .comtime {
+        color: #9b9b9b;
+        font-size: 12px; }
+      .replybg ul.comlists .comdetail .comcontent {
+        color: #2d2d2d;
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 6px; }

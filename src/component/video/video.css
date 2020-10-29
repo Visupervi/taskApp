@@ -1,0 +1,71 @@
+.video {
+  width: 100%;
+  min-height: 194px;
+  position: relative; }
+  .video video {
+    background: #000; }
+  .video .coverImg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000; }
+    .video .coverImg .contentdiv {
+      position: relative;
+      height: 194px;
+      text-align: center;
+      overflow: hidden;
+      background: #000; }
+      .video .coverImg .contentdiv .offline {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: transparent;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        z-index: 99; }
+        .video .coverImg .contentdiv .offline p {
+          height: auto;
+          background: transparent;
+          padding: 66px 0 26px 0; }
+        .video .coverImg .contentdiv .offline span {
+          background: #0099ff;
+          border: 1px solid #0099ff;
+          padding: 6px 8px;
+          border-radius: 4px; }
+        .video .coverImg .contentdiv .offline span.nobg {
+          background: transparent;
+          border: 1px solid #fff;
+          margin-right: 20px; }
+      .video .coverImg .contentdiv img.cover {
+        height: 100%; }
+      .video .coverImg .contentdiv img.none {
+        display: none; }
+      .video .coverImg .contentdiv img.icon {
+        position: absolute;
+        width: 60px;
+        top: calc(50% - 30px);
+        z-index: 10000;
+        left: calc(50% - 30px); }
+    .video .coverImg .likep {
+      position: absolute;
+      width: 100%;
+      bottom: 10px;
+      color: #fff;
+      z-index: 100000; }
+      .video .coverImg .likep p {
+        display: flex;
+        height: auto;
+        justify-content: space-between;
+        padding: 0 10px;
+        background: transparent;
+        font-size: 12px; }
+  .video .discover {
+    opacity: 0;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 10%;
+    left: 15%;
+    z-index: 10000;
+    overflow: hidden; }

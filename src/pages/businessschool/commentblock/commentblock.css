@@ -1,0 +1,59 @@
+.whitebg1 {
+  background: #fff;
+  margin-bottom: 10px; }
+  .whitebg1 .comstitle {
+    color: #333333;
+    font-size: 15px;
+    padding: 15px 0 0 0;
+    font-weight: 500; }
+  .whitebg1 .comlist {
+    padding-bottom: 10px; }
+    .whitebg1 .comlist .rightcom {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 15px;
+      padding-left: 0;
+      border-bottom: 1px solid #E5E5E5;
+      margin-bottom: 0; }
+    .whitebg1 .comlist .rightcom:last-child {
+      border-bottom: none; }
+    .whitebg1 .comlist .rightcom img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px; }
+    .whitebg1 .comlist .art-img {
+      width: 100%; }
+    .whitebg1 .comlist .comdetail {
+      flex: 1;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column; }
+      .whitebg1 .comlist .comdetail .names {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 14px; }
+        .whitebg1 .comlist .comdetail .names span {
+          flex: 1; }
+        .whitebg1 .comlist .comdetail .names span:first-child {
+          color: #333333;
+          font-size: 16px; }
+        .whitebg1 .comlist .comdetail .names span:last-child {
+          text-align: right;
+          color: #707070;
+          font-size: 12px; }
+        .whitebg1 .comlist .comdetail .names i {
+          margin: 0 5px 0 20px;
+          font-size: 15px; }
+        .whitebg1 .comlist .comdetail .names i.red {
+          color: #ff5651; }
+      .whitebg1 .comlist .comdetail .comtime {
+        color: #909090;
+        font-size: 12px; }
+      .whitebg1 .comlist .comdetail .comcontent {
+        color: #2d2d2d;
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 6px; }

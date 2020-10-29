@@ -1,0 +1,39 @@
+a {
+  text-decoration: none; }
+
+.app-wrapper .listview-content {
+  background-color: white;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 10px 0 0; }
+  .app-wrapper .listview-content .item {
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; }
+    .app-wrapper .listview-content .item .img-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .app-wrapper .listview-content .item .img-wrapper img {
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        margin-top: 15px; }
+    .app-wrapper .listview-content .item .topic-info-wrapper {
+      flex: 3;
+      color: rgba(0, 0, 0, 0.75); }
+
+.app-wrapper .list-view-refresh {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.app-wrapper .listview-pull-ui .pull-ui-info {
+  color: rgba(0, 0, 0, 0.45); }
+  .app-wrapper .listview-pull-ui .pull-ui-info .fa {
+    transition: all .25s ease; }

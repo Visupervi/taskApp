@@ -1,0 +1,295 @@
+#examPaper {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  overflow-y: scroll;
+  flex-direction: column;
+  color: #333;
+  box-sizing: border-box;
+  padding: 0;
+  background: #ffffff; }
+  #examPaper .tabHeader {
+    width: 100%;
+    height: 42px;
+    background: #fff;
+    border-bottom: 1px solid #dddddd; }
+    #examPaper .tabHeader span {
+      width: 50%;
+      display: inline-block;
+      text-align: center;
+      line-height: 42px; }
+    #examPaper .tabHeader span.active b {
+      font-size: 15px;
+      color: #333333;
+      font-weight: 600;
+      height: 42px;
+      display: inline-block;
+      padding: 0 2px;
+      position: relative; }
+      #examPaper .tabHeader span.active b:after {
+        content: '';
+        display: block;
+        border: none;
+        background: #FF5651;
+        height: 2px;
+        width: 30px;
+        position: absolute;
+        bottom: 0px;
+        left: calc(50% - 15px); }
+    #examPaper .tabHeader span.lose b {
+      font-weight: normal;
+      color: #9B9B9B;
+      height: 42px;
+      display: inline-block; }
+  #examPaper .button {
+    background: #FF5651;
+    border-radius: 4px;
+    padding: .8rem;
+    color: #fff;
+    text-align: center;
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  #examPaper .singleChoose {
+    padding: 15px;
+    margin-bottom: 15px; }
+    #examPaper .singleChoose .title {
+      font-size: 18px;
+      color: #2C3038;
+      line-height: 30px;
+      font-weight: 600;
+      align-items: center; }
+      #examPaper .singleChoose .title em {
+        display: inline-block;
+        font-size: 12px;
+        color: #0099FF;
+        height: 20px;
+        width: 32px;
+        border: 1px solid #0099FF;
+        border-radius: 4px;
+        font-style: normal;
+        vertical-align: text-top;
+        line-height: 18px;
+        text-align: center;
+        margin-left: 7px;
+        box-sizing: border-box; }
+    #examPaper .singleChoose .img {
+      margin-top: 15px; }
+      #examPaper .singleChoose .img img {
+        width: 100%;
+        max-height: 194px;
+        border-radius: 6px; }
+  #examPaper .chooseBdoy {
+    padding: 15px; }
+    #examPaper .chooseBdoy .item {
+      margin-bottom: 20px;
+      position: relative;
+      min-height: 50px;
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.06);
+      padding: 15px;
+      box-sizing: border-box; }
+      #examPaper .chooseBdoy .item .showRW {
+        position: absolute;
+        right: 10px;
+        top: 6px; }
+        #examPaper .chooseBdoy .item .showRW b {
+          font-size: 12px;
+          font-weight: 100; }
+        #examPaper .chooseBdoy .item .showRW img {
+          width: 64px;
+          height: 38px; }
+      #examPaper .chooseBdoy .item .icon-weixuan, #examPaper .chooseBdoy .item .icon-fang {
+        margin-right: 15px;
+        font-size: 20px;
+        color: #dadada;
+        vertical-align: top; }
+      #examPaper .chooseBdoy .item .icon-xuanzhong, #examPaper .chooseBdoy .item .icon-dianzhong {
+        margin-right: 15px;
+        font-size: 20px;
+        color: #0099FF; }
+      #examPaper .chooseBdoy .item .itemContent {
+        line-height: 20px;
+        vertical-align: top;
+        display: inline; }
+      #examPaper .chooseBdoy .item .icon-duihao {
+        color: #0099FF; }
+      #examPaper .chooseBdoy .item .icon-chahao {
+        color: #FF5651; }
+      #examPaper .chooseBdoy .item div img {
+        margin-top: 10px;
+        margin-left: 40px;
+        max-width: 60%;
+        vertical-align: top; }
+      #examPaper .chooseBdoy .item .taskExamPaper_hr {
+        border: none;
+        margin: 0;
+        margin-top: 30px;
+        height: 1px;
+        width: 104%;
+        background-color: #EFEFEF; }
+  #examPaper .taskExamPaper_hr {
+    margin-bottom: 50px;
+    border: 0; }
+  #examPaper .analysis {
+    padding: 20px 15px;
+    background: rgba(0, 153, 255, 0.12); }
+    #examPaper .analysis .title {
+      font-size: 15px;
+      color: #0099FF;
+      line-height: 21px;
+      width: 34px;
+      min-width: 34px; }
+    #examPaper .analysis .analysisContent {
+      margin-left: 5px;
+      font-size: 15px;
+      color: #333333;
+      line-height: 21px; }
+    #examPaper .analysis .row {
+      display: flex; }
+      #examPaper .analysis .row em {
+        margin-left: 5px; }
+      #examPaper .analysis .row .icon-chahao {
+        color: #ff5651; }
+      #examPaper .analysis .row .icon-duihao {
+        color: #20C505; }
+    #examPaper .analysis .row:first-child {
+      margin-bottom: 10px; }
+  #examPaper .controlbar {
+    height: 50px;
+    border-top: 1px solid #E5E5E5;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #fff; }
+    #examPaper .controlbar span.goTo, #examPaper .controlbar span.goBack {
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      font-size: 16px;
+      width: 25%;
+      text-align: center;
+      color: #0099FF; }
+    #examPaper .controlbar span.noClick {
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      font-size: 16px;
+      width: 25%;
+      text-align: center;
+      color: #9B9B9B; }
+    #examPaper .controlbar span.footBar {
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      font-size: 14px;
+      width: 50%;
+      text-align: center;
+      color: #2E2E2E; }
+      #examPaper .controlbar span.footBar b {
+        font-size: 20px;
+        color: #FF5651; }
+  #examPaper .remainTime {
+    padding: 10px 0;
+    background: #F6FBFF;
+    position: absolute;
+    width: 100%; }
+    #examPaper .remainTime span {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: #2999e4;
+      background: #F6FBFF;
+      line-height: 40px; }
+  #examPaper .bottomMar {
+    margin-top: 60px; }
+
+.none {
+  display: none !important; }
+
+.DisplayResult {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8); }
+  .DisplayResult > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .DisplayResult > div .fail {
+      background: #FFFFFF url("http://supershoper.xxynet.com/vsvz1539677064167") no-repeat; }
+    .DisplayResult > div .pass {
+      background: #FFFFFF url("http://supershoper.xxynet.com/vsvz1539677267519") no-repeat; }
+    .DisplayResult > div .showBlock {
+      display: flex;
+      flex-direction: column;
+      border-radius: 4px;
+      width: 88%;
+      height: 60%;
+      margin: 0 auto;
+      position: relative;
+      background-size: 100% 100%; }
+      .DisplayResult > div .showBlock .shanchu {
+        position: absolute;
+        bottom: -80px;
+        width: 8%; }
+        .DisplayResult > div .showBlock .shanchu .shanchu_img {
+          outline: none;
+          width: 11%; }
+      .DisplayResult > div .showBlock > div {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 15px 10px; }
+        .DisplayResult > div .showBlock > div p {
+          display: flex;
+          flex: 1;
+          justify-content: center;
+          flex-direction: column; }
+          .DisplayResult > div .showBlock > div p em {
+            display: flex;
+            font-size: 40px;
+            justify-content: center;
+            color: #333333;
+            letter-spacing: 0;
+            font-style: normal;
+            font-weight: 600; }
+          .DisplayResult > div .showBlock > div p span {
+            font-size: 15px;
+            color: #9B9B9B;
+            letter-spacing: 0;
+            align-items: flex-start; }
+        .DisplayResult > div .showBlock > div span {
+          display: flex;
+          flex: 1;
+          justify-content: center;
+          align-items: center; }
+        .DisplayResult > div .showBlock > div span.tryOne b {
+          background: #EEEEEE;
+          border-radius: 4px;
+          display: inline-block;
+          height: 40px;
+          width: 92%;
+          text-align: center;
+          line-height: 40px;
+          font-weight: normal;
+          color: #707070; }
+        .DisplayResult > div .showBlock > div span.details b {
+          background: #FF5651;
+          border-radius: 4px;
+          display: inline-block;
+          height: 40px;
+          width: 92%;
+          text-align: center;
+          line-height: 40px;
+          font-weight: normal;
+          color: #FFFFFF; }
+      .DisplayResult > div .showBlock div.empty {
+        display: flex;
+        flex: 2; }

@@ -1,0 +1,193 @@
+.comment-content {
+  flex: 1;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .comment-content .article-detail {
+    background: #f5f5f5;
+    color: #333;
+    flex: 1;
+    width: 100%;
+    overflow: scroll; }
+    .comment-content .article-detail .comlists .list-view-content-inner-wrapper {
+      padding-bottom: 0 !important; }
+    .comment-content .article-detail .linksdiv {
+      background: #fff; }
+    .comment-content .article-detail .none {
+      display: none; }
+    .comment-content .article-detail .whitebg {
+      background: #fff;
+      padding: 0 15px;
+      margin-bottom: 10px; }
+    .comment-content .article-detail .title {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 600;
+      padding-top: 10px; }
+    .comment-content .article-detail .times {
+      color: #9b9b9b;
+      font-size: 14px;
+      margin-top: 8px; }
+      .comment-content .article-detail .times .dian {
+        font-size: 18px;
+        margin: 0 4px; }
+    .comment-content .article-detail .introl {
+      padding: 15px 20px;
+      font-size: 15px;
+      line-height: 25px;
+      margin: 20px 0;
+      background: #f9f9f9;
+      border-radius: 4px; }
+    .comment-content .article-detail .art-img {
+      width: 100%; }
+    .comment-content .article-detail .details {
+      width: 100%;
+      font-size: 17px;
+      line-height: 30px;
+      padding-bottom: 20px;
+      border: 0; }
+    .comment-content .article-detail .zanp {
+      color: #2d2d2d;
+      font-size: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 15px 15px 0; }
+      .comment-content .article-detail .zanp i {
+        color: #c7c7c7;
+        font-size: 13px; }
+    .comment-content .article-detail .photos {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap; }
+    .comment-content .article-detail .photos img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 9px; }
+    .comment-content .article-detail .comstitle {
+      color: #2d2d2d;
+      font-size: 15px;
+      padding: 15px 0; }
+    .comment-content .article-detail .rightcom {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #E5E5E5; }
+      .comment-content .article-detail .rightcom .comcontent {
+        font-size: 15px; }
+    .comment-content .article-detail .rightcom1 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px; }
+      .comment-content .article-detail .rightcom1 img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px; }
+      .comment-content .article-detail .rightcom1 .comcontent {
+        padding-left: 30px; }
+    .comment-content .article-detail .marbottom {
+      margin-bottom: 8px;
+      padding-top: 10px; }
+    .comment-content .article-detail .paddbottom {
+      padding-bottom: 15px; }
+    .comment-content .article-detail .comdetail {
+      flex: 1;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column; }
+      .comment-content .article-detail .comdetail .names {
+        font-size: 14px; }
+        .comment-content .article-detail .comdetail .names span:first-child {
+          color: #295998; }
+        .comment-content .article-detail .comdetail .names span:last-child {
+          text-align: right;
+          color: #707070;
+          font-size: 12px; }
+        .comment-content .article-detail .comdetail .names i {
+          margin: 0 5px 0 20px;
+          font-size: 12px; }
+      .comment-content .article-detail .comdetail .comtime {
+        color: #909090;
+        font-size: 10px; }
+      .comment-content .article-detail .comdetail .comcontent {
+        color: #2d2d2d;
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 6px; }
+    .comment-content .article-detail .comlist {
+      padding-bottom: 10px; }
+  .comment-content .editcom {
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    z-index: 444;
+    background: #fff; }
+    .comment-content .editcom input {
+      flex: 1;
+      border-radius: 30px;
+      background: #f4f4f4;
+      border: 0;
+      height: 20px;
+      line-height: 20px;
+      padding: 8px 15px;
+      font-size: 15px;
+      outline: none; }
+    .comment-content .editcom i {
+      text-align: center;
+      color: #333;
+      font-size: 20px;
+      margin-left: 15px; }
+    .comment-content .editcom i.iconred {
+      color: #ff5651; }
+    .comment-content .editcom i.sendbtn {
+      font-style: normal;
+      font-size: 14px;
+      color: #707070; }
+    .comment-content .editcom #inputSubmit {
+      display: flex;
+      flex: 1;
+      height: 50px; }
+      .comment-content .editcom #inputSubmit .similarInput {
+        display: flex;
+        flex: 1;
+        height: 34px;
+        line-height: 34px;
+        background: #f4f4f4;
+        border-radius: 34px;
+        color: #9b9b9b;
+        margin: 8px 0;
+        padding: 0 10px;
+        font-size: 15px; }
+      .comment-content .editcom #inputSubmit .none {
+        display: none; }
+      .comment-content .editcom #inputSubmit .showSubmit {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        background: #ffffff;
+        z-index: 9999;
+        height: 50px;
+        padding: 0 3vw;
+        display: flex;
+        align-items: center; }
+        .comment-content .editcom #inputSubmit .showSubmit #inputText {
+          flex: none;
+          width: 72vw;
+          height: 24px;
+          line-height: 34px;
+          background: #f4f4f4;
+          border-radius: 34px;
+          padding: 5px 20px;
+          font-size: 15px;
+          outline: none;
+          border: 0; }
+        .comment-content .editcom #inputSubmit .showSubmit .red {
+          color: #FF5651; }

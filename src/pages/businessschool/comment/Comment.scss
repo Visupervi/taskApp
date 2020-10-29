@@ -1,0 +1,22 @@
+.Comment{
+  padding:8px 15px 8px;
+  background-color: #fff;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .TextInput{
+    min-height: 34px;
+    font-size: 15px;
+    color:#9b9b9b;
+    background:#f4f4f4;
+    border:none;
+    border-radius: 100px;
+    padding:0 7px;
+    flex:1;
+    margin-right: 15px;
+  }
+  .iconfont{
+    font-size: 21px;
+  }
+}

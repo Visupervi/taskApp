@@ -1,0 +1,79 @@
+@import "//at.alicdn.com/t/font_713771_b1dghe62vim.css";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100% !important;
+  width: 100%;
+  background: #f9f9f9;
+  overflow: hidden;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+.root-layout {
+  height: 100%;
+  width: 100%;
+  background: #f8f8f8; }
+
+.index-layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.vnone {
+  display: none; }
+
+img, button, a {
+  outline: none; }
+
+.noSee {
+  opacity: 0;
+  display: inline-block;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden; }
+
+.btn_white {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  padding: 10px 0;
+  bottom: 0;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.05); }
+.btn_white .submit_btn {
+  width: 92%;
+  background: #ff5651;
+  margin-left: 4%;
+  text-align: center;
+  color: #fff;
+  height: 40px;
+  line-height: 40px; }
+
+img {
+  object-fit: cover; }
+
+.search {
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
+  padding: 12px; }
+.search img {
+  position: absolute;
+  left: 20px;
+  top: 21px;
+  width: 15px;
+  height: 15px; }
+.search input {
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  outline: none;
+  padding-left: 35px;
+  font-size: 14px;
+  border: none; }
+p{
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}

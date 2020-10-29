@@ -1,0 +1,236 @@
+.article-content {
+  flex: 1;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  word-break: break-all; }
+  .article-content article {
+    width: 100% !important; }
+  .article-content .other {
+    background: #f5f5f5 !important; }
+  .article-content .article-detail {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: #f5f5f5;
+    color: #333;
+    flex: 1;
+    width: 100%;
+    overflow: scroll;
+    /*padding-bottom: 50px;*/ }
+    .article-content .article-detail .list-view-content-inner-wrapper {
+      padding-bottom: 0 !important; }
+    .article-content .article-detail .linksdiv {
+      background: #fff; }
+      .article-content .article-detail .linksdiv .videobg .video-vi {
+        background: #000;
+        /*object-fit: fill;*/ }
+      .article-content .article-detail .linksdiv .alink {
+        display: block;
+        position: relative; }
+        .article-content .article-detail .linksdiv .alink .link-img {
+          width: 100%; }
+        .article-content .article-detail .linksdiv .alink .link-icon {
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+    .article-content .article-detail .iframestyle img {
+      width: 100%; }
+    .article-content .article-detail .none {
+      display: none; }
+    .article-content .article-detail a {
+      /*text-decoration: underline;*/
+      color: #0099ff; }
+    .article-content .article-detail .viewnum {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+    .article-content .article-detail .whitebg {
+      background: #fff;
+      padding: 0 15px;
+      margin-bottom: 10px; }
+      .article-content .article-detail .whitebg .con {
+        font-size: 17px;
+        color: #333;
+        padding: 0 0 10px 0;
+        width: 100%;
+        overflow: auto; }
+        .article-content .article-detail .whitebg .con p {
+          line-height: 30px;
+          padding: 0; }
+        .article-content .article-detail .whitebg .con img, .article-content .article-detail .whitebg .con video {
+          height: auto !important;
+          max-width: 100% !important;
+          padding-top: 30px; }
+    .article-content .article-detail .paddbottom, .article-content .article-detail .marbottom {
+      padding-bottom: 13px; }
+    .article-content .article-detail .title {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 600;
+      padding-top: 15px; }
+    .article-content .article-detail .times {
+      color: #9b9b9b;
+      font-size: 12px;
+      margin: 5px 0; }
+      .article-content .article-detail .times span {
+        margin-right: 3px; }
+      .article-content .article-detail .times span.dian {
+        margin: 0 6px 0 4px; }
+      .article-content .article-detail .times span.browsnum {
+        font-size: 13px;
+        color: #333;
+        font-weight: 600; }
+    .article-content .article-detail .introl {
+      padding: 15px 20px;
+      font-size: 15px;
+      line-height: 25px;
+      margin: 15px 0 5px 0;
+      background: #f9f9f9;
+      border-radius: 4px; }
+    .article-content .article-detail .art-img {
+      width: 100%; }
+    .article-content .article-detail .details {
+      width: 100%;
+      font-size: 17px;
+      line-height: 30px;
+      border: 0; }
+    .article-content .article-detail .whitebgs {
+      margin: 0; }
+      .article-content .article-detail .whitebgs li {
+        margin-left: 15px;
+        padding-left: 0; }
+    .article-content .article-detail .comstitle {
+      color: #333;
+      font-size: 15px;
+      padding: 15px 15px 0px 15px;
+      background: #ffffff; }
+    .article-content .article-detail .comlist {
+      padding: 0; }
+  .article-content .editcom {
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding-left: 15px;
+    align-items: center;
+    z-index: 444;
+    background: #fff; }
+    .article-content .editcom input {
+      flex: 1;
+      border-radius: 30px;
+      background: #f4f4f4;
+      border: 0;
+      height: 20px;
+      line-height: 20px;
+      padding: 8px 10px;
+      font-size: 15px;
+      outline: none; }
+    .article-content .editcom i {
+      display: flex;
+      text-align: center;
+      color: #333;
+      font-size: 20px;
+      width: 12vw;
+      justify-content: center;
+      height: 50px;
+      line-height: 50px; }
+    .article-content .editcom i {
+      position: relative; }
+      .article-content .editcom i em {
+        position: absolute;
+        font-style: normal;
+        color: white;
+        font-size: 12px;
+        background-color: red;
+        padding: 1px 4px;
+        height: 14px;
+        line-height: 14px;
+        left: 7vw;
+        width: fit-content;
+        top: 10px;
+        text-align: center;
+        border-radius: 12px;
+        overflow: hidden; }
+    .article-content .editcom i.bigWidth {
+      width: 15vw; }
+    .article-content .editcom i.iconred {
+      color: #ff5651; }
+      .article-content .editcom i.iconred em {
+        transform: scale(0.9); }
+    .article-content .editcom i.iconyellow {
+      color: #f4bd60; }
+    .article-content .editcom i.sendbtn {
+      font-style: normal;
+      font-size: 14px;
+      color: #707070;
+      white-space: nowrap;
+      width: 60px;
+      text-align: right; }
+    .article-content .editcom #inputSubmit {
+      display: flex;
+      flex: 1;
+      height: 50px;
+      margin-right: 2vw; }
+      .article-content .editcom #inputSubmit .similarInput {
+        display: inline-block;
+        width: 100%;
+        height: 34px;
+        line-height: 34px;
+        background: #f4f4f4;
+        border-radius: 34px;
+        color: #9b9b9b;
+        margin: 8px 0;
+        padding-left: 10px;
+        font-size: 15px; }
+      .article-content .editcom #inputSubmit .none {
+        display: none; }
+      .article-content .editcom #inputSubmit .showSubmit {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        background: #ffffff;
+        z-index: 9999;
+        height: 50px;
+        padding: 0 3vw;
+        display: flex;
+        align-items: center; }
+        .article-content .editcom #inputSubmit .showSubmit #inputText {
+          flex: none;
+          width: 72vw;
+          height: 34px;
+          line-height: 34px;
+          background: #f4f4f4;
+          border-radius: 34px;
+          padding: 2px 20px;
+          font-size: 15px;
+          outline: none;
+          border: 0; }
+        .article-content .editcom #inputSubmit .showSubmit .red {
+          color: #FF5651; }
+  .article-content .taskButton input {
+    width: 45%; }
+  .article-content .taskButton i {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    -ms-flex: 1 1;
+    display: inline-block;
+    width: 12%; }
+  .article-content .taskButton .submitButton {
+    height: 100%;
+    background: linear-gradient(-128deg, #FF5651 0%, #FF8F89 100%);
+    width: 16%;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 50px; }
+  .article-content .taskButton .disable {
+    background: linear-gradient(-128deg, #707070 0%, #909090 100%); }

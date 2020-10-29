@@ -1,0 +1,86 @@
+.whitebgs{
+    background: #fff;
+    padding: 0;
+    margin-bottom: 10px;
+    .comstitle{
+        color: #2d2d2d;
+        font-size: 15px;
+        padding: 15px 0;
+        font-weight: 500;
+    }
+}
+ul.comlist{
+    padding-bottom: 10px;
+    li{
+        display: flex;
+        justify-content: space-between;
+        //margin-bottom: 30px;
+        border-bottom: 1px solid #e5e5e5;
+        padding:15px;
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        div{
+            flex: 1;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            p:first-child{
+                flex: 1;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                font-size: 16px;
+                span{
+                    flex: 1;
+                }
+                span:first-child{
+                    color: #333;
+                }
+                span:last-child{
+                    text-align: right;
+                    color: #707070;
+                    font-size: 14px;
+                }
+                i{
+                    margin: 0 5px 0 20px;
+                    font-size: 14px;
+                }
+                i.red{
+                    color: #ff5651;
+                }
+            }
+            p:nth-child(2){
+                color: #9b9b9b;
+                font-size: 12px;
+                margin-top: 2px;
+            }
+            p:last-child{
+                color: #333;
+                font-size: 15px;
+                line-height: 23px;
+                margin-top: 6px;
+            }
+        }
+    }
+    /*.rightcom
+    .art-img{
+        width: 100%;
+    }*/
+    .excellent{
+        height: 18px;
+        font-style: normal;
+        font-size: 10px;
+        background: rgba(255, 86, 81, 0.15);
+        color: #ff5651;
+        line-height: 18px;
+        display: inline-block;
+        padding: 0 5px;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+}
+

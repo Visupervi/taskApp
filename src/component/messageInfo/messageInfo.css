@@ -1,0 +1,68 @@
+div.messageInfo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  z-index: 999999; }
+  div.messageInfo .displayFlex {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); }
+    div.messageInfo .displayFlex .infoContent {
+      display: flex;
+      width: 80%;
+      height: 22vh;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #fff;
+      border-radius: 7px; }
+      div.messageInfo .displayFlex .infoContent > h4 {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        line-height: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: #333333;
+        font-family: PingFangSC-Regular;
+        letter-spacing: 1px; }
+      div.messageInfo .displayFlex .infoContent > p {
+        display: flex;
+        flex: 2;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        color: #707070;
+        padding: 0 14px;
+        box-sizing: border-box;
+        letter-spacing: 1px; }
+      div.messageInfo .displayFlex .infoContent .isTitle {
+        flex: 1; }
+      div.messageInfo .displayFlex .infoContent > div {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        border-top: 1px solid #DFDFDF; }
+        div.messageInfo .displayFlex .infoContent > div span {
+          display: flex;
+          flex: 1;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          font-size: 15px;
+          color: #2D2D2D; }
+        div.messageInfo .displayFlex .infoContent > div span:first-child {
+          border-right: 1px solid #DFDFDF; }
+        div.messageInfo .displayFlex .infoContent > div span:last-child {
+          color: #FF645F; }

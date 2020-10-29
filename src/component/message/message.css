@@ -1,0 +1,87 @@
+div.messageInfosInfo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  z-index: 999999; }
+  div.messageInfosInfo .displayFlex {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); }
+    div.messageInfosInfo .displayFlex .infoContent {
+      display: flex;
+      width: 76%;
+      min-height: 180px;
+      max-height: 60vh;
+      margin-bottom: 10vh;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #fff;
+      border-radius: 7px; }
+      div.messageInfosInfo .displayFlex .infoContent .title {
+        display: flex;
+        font-weight: 600;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        color: #2C3038;
+        padding-top: 30px;
+        font-size: 17px; }
+      div.messageInfosInfo .displayFlex .infoContent > p {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 400;
+        color: #2D2D2D;
+        padding: 0 14px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        max-height: 50vh;
+        overflow-y: auto; }
+        div.messageInfosInfo .displayFlex .infoContent > p .del_title {
+          font-size: 17px;
+          color: #2C3038;
+          font-weight: bold;
+          margin-bottom: 8px; }
+      div.messageInfosInfo .displayFlex .infoContent > div {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid #DFDFDF;
+        min-height: 5vh;
+        margin-top: 20px;
+        align-items: center; }
+        div.messageInfosInfo .displayFlex .infoContent > div span {
+          display: flex;
+          flex: 1;
+          justify-content: center;
+          align-items: flex-start;
+          font-size: 15px;
+          color: #2D2D2D;
+          padding: 15px 0; }
+        div.messageInfosInfo .displayFlex .infoContent > div span:first-child {
+          border-right: 1px solid #DFDFDF; }
+        div.messageInfosInfo .displayFlex .infoContent > div span:last-child {
+          color: #ff5651; }
+
+div.noTitle .displayFlex .infoContent {
+  min-height: auto; }
+  div.noTitle .displayFlex .infoContent > p {
+    padding: 20px 21px; }
+  div.noTitle .displayFlex .infoContent > div {
+    margin-top: 0; }
+    div.noTitle .displayFlex .infoContent > div span:last-child {
+      color: #ff5651; }

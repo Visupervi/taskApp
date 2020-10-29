@@ -1,0 +1,10 @@
+.masking{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0.6;
+  height: calc(100% - 50px);
+  z-index: 100;
+  //background: #0099ff;
+}

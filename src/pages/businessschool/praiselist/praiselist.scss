@@ -1,0 +1,48 @@
+.oldPraise-content{
+    flex: 1;
+    overflow-y: scroll;
+    ul.praiselist{
+        padding:0;
+        margin:0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        li{
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 15px;
+            div.cont{
+                padding: 14px 12px 14px 0;
+                margin-left: 10px;
+                flex: 1;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border-bottom: 1px solid #e5e5e5;
+                align-items: center;
+                span:first-child{
+                    color:#333;
+                    font-size: 16px;
+                }
+                span:last-child{
+                    color: #707070;
+                    font-size:14px;
+                }
+            }
+        }
+    }
+    .nocontent{
+        color: #707070;
+        text-align: center;
+        padding: 20px;
+    }
+}
