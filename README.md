@@ -83,12 +83,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-#### 测试服务器地址
-http://129.211.138.65/
-
-### 德邦测试
-http://ektest.chaojidaogou.com/index/course/#/study/task?accessToken=54d6982799a730732b6813e676e42fcc_deppon_web
-### 德邦正式
-http://ekcdn.chaojidaogou.com/index/study/#/study/task?accessToken=$access_token
 
 
