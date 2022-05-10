@@ -68,7 +68,7 @@ export const $fetch = async (url = "", data = {}, type = "GET", method = "fetch"
           reject(reqObj.response)
         }
       }
-    }))
+    })).catch(function(err){console.log("warn:", err)})
   }
 
 };
